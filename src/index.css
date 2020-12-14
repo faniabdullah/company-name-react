@@ -14,18 +14,22 @@ code {
 
 
 form {
-  border: thin solid red;
-  padding: 2rem;
+  padding: 20px;
   margin: 2rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
  
-.formtext {
-  position: relative;
-  top: -48px;
+.form-input {
   background: white;
-  padding: 7px;
-  width: 57px;
-  color: red;
+  padding: 12px;
+  border-radius: 10px;
+  border: thin solid black;
+}
+
+button {
+  min-width: 44px;
+  min-height: 44px;
 }
 
