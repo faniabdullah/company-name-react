@@ -33,3 +33,26 @@ button {
   min-height: 44px;
 }
 
+
+.companylist {
+  border: thin solid blue;
+  padding: 2rem;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.company{
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+  gap: 20px;
+  text-align: justify;
+}
+
+.companyimage{
+ width: 100px;
+ height: auto;
+}
+
+
